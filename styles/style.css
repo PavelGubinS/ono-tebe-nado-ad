@@ -27,8 +27,9 @@ main {
 
 .header__links-list-item_no-bullit {
   list-style: none;
+}
 
-  header__link {
+.header__link {
   font-size: 18px;
   white-space: nowrap;
 }
@@ -38,26 +39,26 @@ main {
   color: #FFF;
 }
 
-header__link_active {
+.header__link_active {
   text-decoration: none;
 }
 
-header__logo {
+.header__logo {
   display: block;
   justify-self: center;
   align-self: center;
   width: 140px;
 }
 
-header__logo-image {
+.header__logo-image {
   width: 100%;
 }
 
-address {
+.address {
   font-style: inherit;
 }
 
-header__address {
+.header__address {
   justify-self: end;
   font-style: inherit;
 }
@@ -127,6 +128,7 @@ header__address {
 
 .remove-spacing {
   letter-spacing: normal;
+}
 
 .cover__description {
   position: relative;
@@ -292,6 +294,11 @@ header__address {
   gap: 25px;
 }
 
+.about__text p {
+  font-size: 20px;
+  line-height: normal;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -323,4 +330,3 @@ header__address {
   gap: 48px;
   list-style: none;
 }
-
