@@ -311,9 +311,8 @@ main {
 }
 
 .footer__menu-list {
-    display: flex;
-    justify-content: space-between;   
-    width: 100%;
+  text-align: center;
+  list-style: none;
 }
 
 .footer__menu-link {
