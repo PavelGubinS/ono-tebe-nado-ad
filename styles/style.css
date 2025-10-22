@@ -213,10 +213,6 @@
   text-underline-offset: 7px;
 }
 
-/* #endregion Конец блока lots */
-
-/* #region Начало компонента card */
-
 .card-link {
   display: block;
   width: 100%;
