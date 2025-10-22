@@ -256,10 +256,12 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
   padding: 0 50px;
+  justify-content: center; 
 }
 
 .about__column {
   justify-self: center;
+  align-items: start;
 }
 
 .about__column_text {
