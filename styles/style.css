@@ -289,8 +289,6 @@ main {
 }
 
 .about__text {
-  display: flex;
-  flex-direction: column;
   gap: 25px;
 }
 
@@ -298,6 +296,8 @@ main {
   font-size: 20px;
   line-height: normal;
 }
+
+
 
 .footer {
   display: flex;
