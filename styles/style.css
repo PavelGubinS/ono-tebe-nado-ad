@@ -16,9 +16,6 @@ main {
   padding: 92px 51px 89px;
 }
 
-/* ... (остальные стили header без изменений) ... */
-
-
 .cover {
   position: relative;
   padding: 165px 50px 50px 50px; /* Увеличил padding сверху для большего пространства над заголовком */
