@@ -10,41 +10,28 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="header__menu">
-        <ul class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a href="#" class="header__link header__link_active">главная</a>
-          </li>
-          <li class="header__links-list-item">
-            <a href="#" class="header__link">посмотреть лоты</a>
-          </li>
-          <li class="header__links-list-item">
-            <a href="#" class="header__link">об аукционе</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="header__logo">   <!--  В задании не нужно было указывать атрибут href -->
-        <img
-          src="./images/logo-black.svg"
-          alt="Логотип сайта"
-          class="header__logo-image"
-        />
-      </a>
-      <address class="page__address">
-        <ul class="address">
-          <li class="address__list">
-            <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
-          </li>
-          <li class="address__list">
-            <a href="mailto:info@sobaka.ge" class="address__link"
-              >info@sobaka.ge</a
-            >
-          </li>
-        </ul>
-          <p class="address__text">наб. Принсенграхт 263-<br />265, Амстердам</p>
-      </address>
-    </header>
+<header class="header">
+  <div class="container header__row">
+
+    <!-- меню -->
+    <img src="images/menu.jpg"
+         alt="Меню сайта"
+         class="menu-img">
+
+    <!-- логотип-->
+    <a class="logo" href="/" aria-label="Оно тебе надо">
+      <img src="images/logo-black.svg"
+           alt="Оно тебе надо"
+           class="logo__img">
+    </a>
+
+    <!-- контакты -->
+    <img src="images/contacts.jpg"
+         alt="Контакты"
+         class="contacts">
+         
+  </div>
+</header>
     <main class="main">
       <section class="cover">
         <div class="overlay"></div>
