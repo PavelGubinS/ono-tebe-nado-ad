@@ -184,7 +184,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 25px;
-  list-style: none;
+  list-style: circle;
 }
 
 .lost__card-list-item {
