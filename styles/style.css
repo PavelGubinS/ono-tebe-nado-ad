@@ -260,7 +260,7 @@ main {
 
 .about__logo {
     flex: 0 0 auto;
-    margin-right: 30px;
+    margin-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
