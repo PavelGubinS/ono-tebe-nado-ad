@@ -260,7 +260,7 @@ main {
 
 .about__logo {
     flex: 0 0 auto;
-    margin-right: 55px;
+    margin-right: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,7 +285,7 @@ main {
 }
 
 .about__title {
-    padding: 50px 0 104px;
+    padding: 45px 0 104px;
     font-weight: bold;
     font-size: 40px;
     line-height: 1;
