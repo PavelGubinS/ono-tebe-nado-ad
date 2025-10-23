@@ -202,7 +202,7 @@ main {
     gap: 30px;
     width: auto;
     height: 100%;
-    padding: 50px 40px;
+    padding: 50px 30px;
 }
 
 .card_type_film {
@@ -297,7 +297,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .about__text p {
