@@ -1,7 +1,7 @@
 main {
     display: flex;
     flex-direction: column;
-    gap: 183px;
+    gap: 183px;    
 }
 
 .content-section {
@@ -199,10 +199,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 65px;
-    width: auto;
+    gap: 70px;
+    width: 350px;
+    margin-left:-15px;
     height: 100%;
-    padding: 40px 30px;
+    padding: 35px 30px;
 }
 
 .card_type_film {
