@@ -200,9 +200,9 @@ main {
     flex-direction: column;
     justify-content: space-between;
     gap: 30px;
-    width: auto;
+    width: 400px;
     height: 100%;
-    padding: 50px 30px;
+    padding: 50px 40px;
 }
 
 .card_type_film {
