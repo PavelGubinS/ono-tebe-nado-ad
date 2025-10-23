@@ -296,6 +296,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  font-size: 20px;
 }
 
 .about__text p {
